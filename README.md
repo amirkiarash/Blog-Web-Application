@@ -1,7 +1,6 @@
 Blog Web Application
 
 Description:
-
 This is a simple blog web application built using Node.js and Express.js. It allows users to create, view, edit, and delete blog posts directly from the browser. The application uses in-memory storage for posts (no database, so data resets on server restart), making it ideal for learning purposes or as a starting point for a more robust blog system. The frontend is rendered with EJS templating for dynamic content, styled with Bootstrap for responsive design, and includes custom CSS for additional tweaks.
 Key features:
 
@@ -13,7 +12,6 @@ Basic form handling for user input.
 
 
 Technologies Used:
-
 Node.js: Runtime environment for server-side JavaScript.
 Express.js: Web framework for handling routes, requests, and responses.
 EJS: Templating engine for rendering dynamic HTML views.
@@ -23,7 +21,6 @@ Custom CSS: Additional styling in public/styles.css for layout and appearance.
 
 
 Project Structure:
-
 index.js: The main server file that sets up Express, defines routes for CRUD operations, and handles post data.
 views/: Contains EJS template files for rendering pages.
 
@@ -43,13 +40,11 @@ package.json & package-lock.json: Define project metadata, dependencies, and scr
 
 
 Prerequisites:
-
 Node.js (version 14 or higher recommended) installed on your machine.
 A web browser (e.g., Chrome, Firefox) to access the app.
 
 
 Installation:
-
 Clone the repository from GitHub:
 git clone https://github.com/amirkiarash/Blog-Web-Application.git
 
@@ -60,8 +55,7 @@ Install the required dependencies:
 npm install
 
 
-How to Run
-
+How to Run:
 Start the server:
 node index.js
 (Alternatively, if you have Nodemon installed globally for auto-reloading: nodemon index.js.)
